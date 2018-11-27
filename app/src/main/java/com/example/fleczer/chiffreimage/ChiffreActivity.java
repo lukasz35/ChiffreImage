@@ -2,6 +2,7 @@ package com.example.fleczer.chiffreimage;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class ChiffreActivity extends AppCompatActivity {
 
@@ -10,4 +11,5 @@ public class ChiffreActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chiffre);
     }
+    Button b;
 }
